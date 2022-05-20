@@ -1,0 +1,24 @@
+{
+  "src/main.ts": {
+    "file": "js/main.js",
+    "src": "src/main.ts",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/components/Root.vue"
+    ],
+    "css": [
+      "css/main.css"
+    ]
+  },
+  "src/components/Root.vue": {
+    "file": "js/Root.js",
+    "src": "src/components/Root.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/main.ts"
+    ],
+    "css": [
+      "css/Root.css"
+    ]
+  }
+}
